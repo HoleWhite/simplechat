@@ -21,7 +21,8 @@ def extract_region_from_arn(arn):
 # MODEL_ID = os.environ.get("MODEL_ID", "us.amazon.nova-lite-v1:0")
 
 # APIエンドポイント
-API_URL = "https://3307-35-204-236-223.ngrok-free.app/generate"
+#API_URL = "https://3307-35-204-236-223.ngrok-free.app/generate"
+API_URL = "https://04e1-35-204-236-223.ngrok-free.app/"
 
 def lambda_handler(event, context):
     try:
