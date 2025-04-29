@@ -25,7 +25,7 @@ def extract_region_from_arn(arn):
 
 # APIエンドポイント
 #API_URL = "https://3307-35-204-236-223.ngrok-free.app/generate"
-API_URL = "https://04e1-35-204-236-223.ngrok-free.app/"
+API_URL = "https://04e1-35-204-236-223.ngrok-free.app/generate"
 
 def lambda_handler(event, context):
     try:
